@@ -12,6 +12,16 @@
   })();
 </script>
 <!-- End Matomo Tag Manager -->
+   <script>
+  document.addEventListener("cookieyes_consent_update", function (eventData)
+ {
+   const data = eventData.detail;
+   if (data.accepted.includes("analytics")) {
+     _mtm.push({"event": "analytics-yes"});
+    }
+  });
+  </script>
+
   <title>Devika G R Photography</title>
   <style>
     body {
